@@ -1,0 +1,1 @@
+{'Lundi': {'Matin': 2, 'Midi': 4, 'Après-midi': 2}, 'Mardi': {'Matin': 2, 'Midi': 4, 'Après-midi': 2}, 'Mercredi': {'Matin': 2, 'Midi': 4, 'Après-midi': 2}, 'Jeudi': {'Matin': 2, 'Midi': 4, 'Après-midi': 0}, 'Vendredi': {'Matin': 2, 'Midi': 4, 'Après-midi': 2}}
