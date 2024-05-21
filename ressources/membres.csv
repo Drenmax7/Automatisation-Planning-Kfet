@@ -1,5 +1,4 @@
-Prenom Nom,Nom Affiché,Actif,Pseudo Discord,Numero Etudiant,Telephone,Adresse Mail,Id Discord
-Personne 1,Per 1,1,perperdu1,22100107,0601020304,personnedu1@gmail.com,@000000001
-Personne 2,Per 2,1,perperdu2,22100207,0602020304,personnedu2@gmail.com,@000000002
-Personne 3,Per 3,1,perperdu3,22100307,0601320304,personnedu3@gmail.com,@000000003
-
+Prenom Nom;Nom Affiché;Actif;Pseudo Discord;Numero Etudiant;Telephone;Adresse Mail;Id Discord
+Personne 1;Per 1;1;perperdu1;22100107;0601020304;personnedu1@gmail.com;@000000001
+Personne 2;Per 2;1;perperdu2;22100207;0602020304;personnedu2@gmail.com;@000000002
+Personne 3;Per 3;1;perperdu3;22100307;0601320304;personnedu3@gmail.com;@000000003

@@ -76,7 +76,7 @@ class Kfetier():
 
     def lire(self, fichier):
         f = open(fichier, "r", encoding="UTF-8")
-        data = [i.split(",") for i in f.read().split("\n") if i != ""]
+        data = [i.split(";") for i in f.read().split("\n") if i != ""]
         f.close()
 
         self.colonne = data[0]
@@ -85,10 +85,12 @@ class Kfetier():
     def enregistre(self, fichier):
         f = open(fichier, "w", encoding="UTF-8")
         
-        f.write(",".join(self.colonne)+"\n")
+        texte = ",".join(self.colonne)+"\n"
+        f.write(texte.replace(",",";"))
         
         for ligne in self.info:
-            f.write(",".join(ligne)+"\n")
+            texte = ",".join(ligne)+"\n"
+            f.write(texte.replace(",",";"))
 
         f.close()
     
